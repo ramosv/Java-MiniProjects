@@ -1,6 +1,6 @@
 import java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy;
 
-public class Program {
+public class CountryCapital {
 
     public static void main(String[] args) {
 
@@ -30,7 +30,7 @@ class Country {
         return name;
     }
 
-    public String setName(string i) {
+    public void setName(String i) {
         name = i;
     }
 
@@ -38,7 +38,7 @@ class Country {
         return capital;
     }
 
-    public String setCapital(string i) {
+    public void setCapital(String i) {
         capital = i;
     }
 

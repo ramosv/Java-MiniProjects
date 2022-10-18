@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TrackingCustomerData {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
@@ -17,8 +17,8 @@ public class Main {
 
         customer.saveCustomerInfo();
 
-        //Comment to check for changes to Github
-        
+        // Comment to check for changes to Github
+
     }
 }
 
