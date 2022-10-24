@@ -19,6 +19,7 @@ public class ExeptionHandling {
             System.out.println("Error: invalid input");
 
         }
+        sc.close();
 
     }
 

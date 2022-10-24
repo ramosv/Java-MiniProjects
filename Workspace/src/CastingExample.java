@@ -10,6 +10,8 @@ public class CastingExample {
         int j = (int) i;
 
         System.out.println(j);
+
+        input.close();
     }
 
 }
