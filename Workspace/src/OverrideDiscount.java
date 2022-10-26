@@ -23,5 +23,6 @@ class customerSale {
     public int discount(int cost) {
         cost = cost - (cost * 10) / 100;
         return cost;
+        
     }
 }
