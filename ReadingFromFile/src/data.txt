@@ -1,0 +1,11 @@
+vicente,24
+roberto,17
+alejandro,88
+sebastian,23
+karolina,89
+wil,33
+parker,24
+lily,3
+anton,5
+levi,4
+amy,1
