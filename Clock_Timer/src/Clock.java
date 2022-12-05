@@ -1,4 +1,5 @@
-import java.time.Clock;
+
+//import java.time.Clock;
 import java.util.Locale;
 
 public class Clock {
@@ -22,6 +23,10 @@ public class Clock {
             }
         }
 
+    }
+
+    public String toString() {
+        return hour + ":" + minute + ":" + second;
     }
 
 }

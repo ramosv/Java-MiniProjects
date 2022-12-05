@@ -9,6 +9,10 @@ public class ClockHand {
 
     public void advance() {
         this.value += 1;
+
+        if (this.value >= this.limit) {
+            this.value = 0;
+        }
     }
 
     public int getValue() {
