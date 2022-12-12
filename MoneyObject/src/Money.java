@@ -69,6 +69,47 @@ public class Money {
 
     }
 
+    /*
+     * public Money minus(Money decreaser) {
+     * 
+     * int euros = this.euros - decreaser.euros();
+     * 
+     * int cents = this.cents - decreaser.cents();
+     * 
+     * 
+     * 
+     * if (cents < 0) {
+     * 
+     * cents = cents + 100;
+     * 
+     * euros = euros - 1;
+     * 
+     * }
+     * 
+     * 
+     * 
+     * // if the value becomes negative, return zero
+     * 
+     * if (euros < 0) {
+     * 
+     * return new Money(0, 0);
+     * 
+     * }
+     * 
+     * 
+     * 
+     * return new Money(euros, cents);
+     * 
+     * }
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     */
+
     public String toString() {
         String zero = "";
         if (this.cents < 10) {
