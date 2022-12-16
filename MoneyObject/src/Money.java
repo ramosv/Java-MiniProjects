@@ -68,15 +68,12 @@ public class Money {
         return minus;
 
     }
-
+    // Better implementation of the code above!
     /*
      * public Money minus(Money decreaser) {
      * 
      * int euros = this.euros - decreaser.euros();
-     * 
      * int cents = this.cents - decreaser.cents();
-     * 
-     * 
      * 
      * if (cents < 0) {
      * 
@@ -86,8 +83,6 @@ public class Money {
      * 
      * }
      * 
-     * 
-     * 
      * // if the value becomes negative, return zero
      * 
      * if (euros < 0) {
@@ -96,17 +91,9 @@ public class Money {
      * 
      * }
      * 
-     * 
-     * 
      * return new Money(euros, cents);
      * 
      * }
-     * 
-     * 
-     * 
-     * 
-     * 
-     * 
      * 
      */
 
