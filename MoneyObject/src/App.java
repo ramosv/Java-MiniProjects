@@ -17,7 +17,7 @@ public class App {
         System.out.println(b); // 3.50e
         System.out.println(c); // 0.00e
 
-        // HashMap<Integer,String> map = new HashMap<Integer,String>();
+        HashMap<Integer, String> map = new HashMap<Integer, String>();
         // map.put(1,"I"); map.put(2, "2");
     }
 }
