@@ -1,4 +1,8 @@
+import java.rmi.server.SocketSecurityException;
+import java.util.Dictionary;
 import java.util.Scanner;
+
+import javax.swing.SpringLayout;
 
 public class TextUI {
 
@@ -32,5 +36,52 @@ public class TextUI {
             }
         }
     }
+
+}
+
+    // BETTER IMPLIMENTATION USING METHODS / Cleaner code
+
+    public void start() {
+        while (true) {
+            System.out.println("Command: ");
+            String input = sc.nextLine();
+            if (input.equals("end")) {
+                break;
+            }
+
+            userCommand(input);
+            System.out.println("");
+
+        }
+        System.out.println("Bye bye!");
+    }
+
+    public void userCommand(String command) {
+        if (command.equals("add")) {
+            add();
+        } else if (command.equals("search")) {
+            search();
+        } else {
+            System.out.println("Unknown command");
+        }
+    }
+
+    public void add() {
+        System.out.println("Word: ");
+        String word = sc.nextLine();
+        System.out.println("Translation: ");
+        String trans = sc.nextLine();
+        dicto.add(word, trans);
+
+    }
+
+public void search()
+{
+    System.out.println("To be translated: ");
+    String word = sc.nextLine();
+
+    System.out.println("To be translated: ");
+                String toTrans = sc.nextLine();
+                System.out.println("Translation: " + dicto.translate(toTrans));
 
 }
