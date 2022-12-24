@@ -1,8 +1,5 @@
-import java.rmi.server.SocketSecurityException;
-import java.util.Dictionary;
-import java.util.Scanner;
 
-import javax.swing.SpringLayout;
+import java.util.Scanner;
 
 public class TextUI {
 
