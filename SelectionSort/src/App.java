@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        int[] arr = { 5, 56, 2, 7, 354, 85, 35, 681, 89, 6 };
+        int[] arr = { 4, 86, 2, 18, 34, 6984, 1, 35, 3842, 83, 4, 86, 5 };
         sort(arr);
 
     }
