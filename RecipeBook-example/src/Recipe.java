@@ -8,6 +8,7 @@ public class Recipe {
     public Recipe(String name, int time) {
         this.name = name;
         this.time = time;
+        this.ingredients = new ArrayList<>();
     }
 
     public boolean cookingTimeMax(int max) {
